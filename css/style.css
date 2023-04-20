@@ -1,0 +1,46 @@
+header {
+    width: 80%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.top {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 340px;
+    height: 120px;
+}
+
+.top-right {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
