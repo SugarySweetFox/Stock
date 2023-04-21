@@ -19,6 +19,14 @@ h3 {
     line-height: 21px;
 }
 
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+}
+
 p {
     margin: 0;
 }
@@ -247,4 +255,41 @@ a {
 .card img {
     width: 230px;
     height: 200px;
+}
+
+.adv div {
+    width: 270px;
+    height: 140px;
+}
+
+.adv {
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.why {
+    background-color: #F7F7F7;
+    margin-top: 80px;
+    height: 300px;
+    padding: 20px;
+}
+
+.why h1 {
+    margin: 25px auto;
+    text-align: center;
+}
+
+.adv img {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.adv h2 {
+    text-align: center;
 }
