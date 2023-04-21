@@ -1,3 +1,28 @@
+body {
+    padding-top: 40px;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+h3 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+p {
+    margin: 0;
+}
+
 header {
     width: 80%;
     height: 230px;
@@ -20,6 +45,7 @@ header {
 }
 
 .top-right {
+    width: 70%;
     height: 120px;
     display: flex;
     flex-direction: column;
@@ -30,18 +56,14 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .top-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.bottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin-top: 15px;
 }
 
 div.top-top button {
@@ -50,4 +72,179 @@ div.top-top button {
     border: 2px solid #3F69FF;
     border-radius: 5px;
     background-color: white;
+    margin-left: 50px;
+}
+
+header input {
+    box-sizing: border-box;
+    width: 400px;
+    height: 41px;
+    border: 2px solid #3F69FF;
+    border-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+div.top-bottom button {
+    background: #3F69FF;
+    border-radius: 5px;
+    width: 116px;
+    height: 40px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+div.search button.glass{
+    border: 2px solid #3F69FF;
+    background: transparent;
+    border-radius: 3px;
+    height: 41px;
+    width: 45px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-color: #3F69FF;
+}
+
+div.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.sign-in {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.sign-in img {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+
+div.wa {
+    width: 80px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.wa img {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+
+div.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail img {
+    margin-right: 10px;
+}
+
+.menu {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider {
+    width: 80%;
+    min-height: 334px;
+    background-image: url(../img/slider.png);
+    background-size: cover;
+    background-position: top center;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.slider h1 {
+    color: white;
+    width: 70%;
+}
+
+.next {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.next img {
+    margin-top: 151px;
+}
+
+.categories {
+    width: 80%;
+    margin: 40px auto;
+
+}
+
+.categories h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.content {
+    margin-top: 20px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 270px;
+    margin: 0 40px;
+
+}
+
+.card img {
+    width: 230px;
+    height: 200px;
 }
